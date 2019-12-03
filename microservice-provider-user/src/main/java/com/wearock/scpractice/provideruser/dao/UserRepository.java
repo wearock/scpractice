@@ -1,0 +1,9 @@
+package com.wearock.scpractice.provideruser.dao;
+
+import com.wearock.scpractice.provideruser.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+}
