@@ -28,6 +28,9 @@
         <module>microservice-consumer-movie</module>
         <module>microservice-discovery-eureka-ha</module>
         <module>microservice-consumer-movie-ribbon</module>
+        <module>microservice-consumer-movie-feign</module>
+        <module>microservice-consumer-movie-feign-customize</module>
+        <module>microservice-provider-user-with-auth</module>
     </modules>
 
     <dependencyManagement>
